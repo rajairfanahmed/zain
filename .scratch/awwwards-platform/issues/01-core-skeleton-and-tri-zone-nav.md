@@ -8,9 +8,9 @@ None (can start immediately)
 
 **Status:** ready-for-agent
 
-- [ ] Next.js App Router initialized with TypeScript and Tailwind CSS.
-- [ ] Obsidian Specular theme tokens, color scales, and typography fonts configured.
-- [ ] Lenis smooth momentum scrolling provider implemented globally.
-- [ ] Persistent Tri-Zone Navigation Bar renders brand logo (left), route links (center), and Resume button (right).
-- [ ] Working shell pages for `/`, `/about`, `/projects`, `/skills`, and `/contact` render with synchronized curtain transitions.
-- [ ] Verified CV PDF mapped to `/resume.pdf` from `docs/Profile.pdf`.
+- [x] Next.js App Router initialized with TypeScript and Tailwind CSS.
+- [x] Obsidian Specular theme tokens, color scales, and typography fonts configured.
+- [x] Lenis smooth momentum scrolling provider implemented globally.
+- [x] Persistent Tri-Zone Navigation Bar renders brand logo (left), route links (center), and Resume button (right).
+- [x] Working shell pages for `/`, `/about`, `/projects`, `/skills`, and `/contact` render with synchronized curtain transitions.
+- [x] Verified CV PDF mapped to `/resume.pdf` from `docs/Profile.pdf`.
