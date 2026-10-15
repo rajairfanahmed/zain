@@ -8,9 +8,9 @@ The complete, end-to-end Home experience (`/`): High-impact kinetic hero headlin
 
 **Status:** ready-for-agent
 
-- [ ] Kinetic hero headline with editorial display typography.
-- [ ] Live availability status beacon rendered cleanly.
-- [ ] Asymmetric portrait stage displaying `zain.jpg` with obsidian specular borders and hover luminescence.
-- [ ] High-density metrics counter (200+ LeetCode, distributed systems, Devsinc Ambassador).
-- [ ] Featured flagship project teaser with direct link to `/projects`.
-- [ ] Complete SEO metadata and OpenGraph configuration for `/`.
+- [x] Kinetic hero headline with editorial display typography.
+- [x] Live availability status beacon rendered cleanly.
+- [x] Asymmetric portrait stage displaying `zain.jpg` with obsidian specular borders and hover luminescence.
+- [x] High-density metrics counter (200+ LeetCode, distributed systems, Devsinc Ambassador).
+- [x] Featured flagship project teaser with direct link to `/projects`.
+- [x] Complete SEO metadata and OpenGraph configuration for `/`.
