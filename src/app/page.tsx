@@ -120,16 +120,25 @@ export default function HomePage() {
           {PROFILE_METRICS.map((metric, idx) => (
             <div
               key={metric.label}
-              className="specular-card p-6 sm:p-8 rounded-xl flex flex-col justify-between"
+              className="specular-card p-6 sm:p-8 rounded-xl flex flex-col justify-between overflow-hidden min-w-0"
             >
-              <div>
+              <div className="min-w-0">
                 <span className="text-[11px] font-mono text-slate-500 block mb-4">
                   0{idx + 1} // STAT
                 </span>
-                <span className="text-4xl sm:text-5xl font-display font-extrabold text-white block tracking-tight mb-2">
+                <span
+                  className={`font-display font-extrabold text-white block tracking-tight mb-2 truncate ${
+                    metric.value.length > 7
+                      ? "text-2xl sm:text-3xl"
+                      : metric.value.length > 4
+                      ? "text-3xl sm:text-4xl"
+                      : "text-4xl sm:text-5xl"
+                  }`}
+                  title={metric.value}
+                >
                   {metric.value}
                 </span>
-                <span className="text-sm font-semibold text-slate-200 block mb-2 font-mono">
+                <span className="text-sm font-semibold text-slate-200 block mb-2 font-mono truncate">
                   {metric.label}
                 </span>
               </div>
