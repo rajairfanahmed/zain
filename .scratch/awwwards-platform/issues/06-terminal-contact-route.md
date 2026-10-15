@@ -8,8 +8,8 @@ The complete, end-to-end Contact experience (`/contact`): 1-click clipboard copy
 
 **Status:** ready-for-agent
 
-- [ ] 1-click clipboard copy triggers for email and phone with animated visual feedback.
-- [ ] Pre-formatted mailto client launcher button.
-- [ ] Direct links to GitHub (`github.com/Zain308`) and LinkedIn profiles.
-- [ ] Complete platform accessibility & SEO audit (valid schema, meta tags, heading hierarchy).
-- [ ] Full responsiveness check from 320px to 4K with zero horizontal overflow.
+- [x] 1-click clipboard copy triggers for email and phone with animated visual feedback.
+- [x] Pre-formatted mailto client launcher button.
+- [x] Direct links to GitHub (`github.com/Zain308`) and LinkedIn profiles.
+- [x] Complete platform accessibility & SEO audit (valid schema, meta tags, heading hierarchy).
+- [x] Full responsiveness check from 320px to 4K with zero horizontal overflow and zero white scroll flash.

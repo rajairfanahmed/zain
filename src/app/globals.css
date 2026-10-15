@@ -8,21 +8,26 @@
   --font-display: 'Syne', sans-serif;
   --font-sans: 'Plus Jakarta Sans', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
+  color-scheme: dark;
 }
 
 html {
-  background-color: #07080B;
+  background-color: #07080B !important;
   color: #F8FAFC;
+  color-scheme: dark;
   scroll-behavior: auto !important; /* Managed by Lenis */
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  overscroll-behavior-y: none;
 }
 
 body {
-  background-color: #07080B;
+  background-color: #07080B !important;
   color: #F8FAFC;
+  color-scheme: dark;
   font-family: var(--font-sans);
   overflow-x: hidden;
   min-height: 100vh;
+  overscroll-behavior-y: none;
 }
 
 /* Custom Selection */

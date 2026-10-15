@@ -60,6 +60,56 @@ export const FLAGSHIP_PROJECT: Project = {
   featured: true,
 };
 
+export const ALL_PROJECTS: Project[] = [
+  FLAGSHIP_PROJECT,
+  {
+    id: "algorithmic-problem-engine",
+    title: "Algorithmic Systems & Data Structures Repository",
+    category: "Competitive Programming & Asymptotic Algorithms",
+    subtitle: "200+ Verified LeetCode Solutions in Modern C++ and Python",
+    description:
+      "Comprehensive repository of 200+ optimized algorithmic solutions spanning dynamic programming, graph algorithms (Dijkstra, BFS/DFS, TopoSort), tree traversals, and greedy paradigms.",
+    architecture: [
+      "Rigorous time and space complexity profiling adhering to tight asymptotic bounds.",
+      "Idiomatic modern C++ (STL containers, templates, smart pointers) and Python 3 implementations.",
+      "Corner-case stress testing suites evaluating boundary conditions and memory overhead.",
+    ],
+    tags: ["C++", "Python", "Algorithms", "Data Structures", "LeetCode 200+"],
+    highlights: ["200+ Solved Problems", "Optimal Time Complexity", "Dynamic Programming & Graphs"],
+    githubUrl: "https://github.com/Zain308",
+  },
+  {
+    id: "distributed-cache-store",
+    title: "High-Throughput Redis Caching & Rate-Limiter",
+    category: "Distributed Systems & In-Memory Infrastructure",
+    subtitle: "In-Memory Session & High-Frequency Request Synchronization",
+    description:
+      "A distributed caching layer designed to mitigate database bottlenecks across high-frequency API endpoints using Redis key evictions and sliding-window rate limiters.",
+    architecture: [
+      "Sliding-window counter implementation guarding critical authentication and booking endpoints.",
+      "Redis Pub/Sub event distribution notifying connected client portals in sub-millisecond latency.",
+      "Fallback circuit breaker mechanisms ensuring graceful degradation during connection interruptions.",
+    ],
+    tags: ["Redis", "Node.js", "TypeScript", "System Architecture", "Performance"],
+    highlights: ["Sliding-Window Limiter", "Pub/Sub Synchronization", "Sub-millisecond Latency"],
+  },
+  {
+    id: "ai-care-navigation",
+    title: "Intelligent Clinical Care Navigation Flow",
+    category: "Applied AI & Medical Prompt Architecture",
+    subtitle: "Automated Clinical Assistant with Zero-Trust PHI Redaction",
+    description:
+      "An AI-powered operational care assistant that parses user inquiries, matches appropriate clinical specialties, and generates structured care recommendations while redacting sensitive patient identifiers.",
+    architecture: [
+      "Structured OpenAI prompt engineering pipelines with context boundary enforcement.",
+      "Client-side and middleware sanitization preventing PHI leakage prior to LLM dispatch.",
+      "Event-driven integration loop coordinating provider booking availability.",
+    ],
+    tags: ["OpenAI API", "Next.js", "TypeScript", "Data Privacy", "Prompt Engineering"],
+    highlights: ["Zero-Trust Data Boundary", "Automated Triage", "Context Preservation"],
+  },
+];
+
 export interface TimelineItem {
   id: string;
   role: string;
@@ -171,4 +221,44 @@ export const EDUCATION_DATA = {
     "Computer Networks & Protocols",
   ],
 };
+
+export interface Credential {
+  id: string;
+  title: string;
+  issuer: string;
+  period: string;
+  skills: string[];
+}
+
+export const CREDENTIALS_DATA: Credential[] = [
+  {
+    id: "gdg-cert",
+    title: "Certificate of Appreciation (Event Operations)",
+    issuer: "Google Developer Groups On Campus - NUML",
+    period: "2025 – 2026",
+    skills: ["Technical Events", "Community Evangelism", "Developer Hackathons"],
+  },
+  {
+    id: "bootdev-backend",
+    title: "Backend Architecture & Data Structures",
+    issuer: "Boot.dev",
+    period: "Verified",
+    skills: ["Algorithms in C++", "Pythonic Systems", "Memory Profiling"],
+  },
+  {
+    id: "google-prompting",
+    title: "Google Prompting & Context Architecture",
+    issuer: "Google",
+    period: "Verified",
+    skills: ["Prompt Engineering", "Context Window Management", "Zero-Trust Guardrails"],
+  },
+  {
+    id: "ibm-data-science",
+    title: "Data Science & Analytical Querying",
+    issuer: "IBM",
+    period: "Verified",
+    skills: ["Pandas", "Analytical Queries", "Exploratory Data Analysis"],
+  },
+];
+
 

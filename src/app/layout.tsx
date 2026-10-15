@@ -50,8 +50,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-[#07080B] text-foreground min-h-screen flex flex-col antialiased selection:bg-amber-400 selection:text-black">
+    <html lang="en" className="dark bg-[#07080B]" style={{ backgroundColor: "#07080B", colorScheme: "dark" }}>
+      <body
+        className="bg-[#07080B] text-foreground min-h-screen flex flex-col antialiased selection:bg-amber-400 selection:text-black"
+        style={{ backgroundColor: "#07080B", colorScheme: "dark" }}
+      >
         <SmoothScrollProvider>
           <PageCurtain />
           <Navbar />

@@ -8,8 +8,8 @@ The complete, end-to-end Skills experience (`/skills`): Structured technical mat
 
 **Status:** ready-for-agent
 
-- [ ] Technical matrix categorized into Languages, Backend, Frontend, and AI/Tools.
-- [ ] Visual telemetry/proficiency badges for core technologies.
-- [ ] Academic credentials and industry certifications ledger (NUML, Boot.dev, IBM, Google).
-- [ ] Category filtering tabs for rapid recruiter evaluation.
-- [ ] Complete SEO metadata and OpenGraph configuration for `/skills`.
+- [x] Technical matrix categorized into Languages, Backend, Frontend, and AI/Tools.
+- [x] Visual telemetry/proficiency badges for core technologies.
+- [x] Academic credentials and industry certifications ledger (NUML, Boot.dev, IBM, Google).
+- [x] Category filtering tabs for rapid recruiter evaluation.
+- [x] Complete SEO metadata and OpenGraph configuration for `/skills`.

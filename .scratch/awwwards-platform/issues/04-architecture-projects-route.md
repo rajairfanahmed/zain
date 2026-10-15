@@ -8,9 +8,9 @@ The complete, end-to-end Projects experience (`/projects`): Direct, clean showca
 
 **Status:** ready-for-agent
 
-- [ ] Flagship project showcase cards with clean, direct architecture summaries.
-- [ ] Humankind healthcare super-marketplace case study (200+ tables, HIPAA, Supabase, Stripe Connect).
-- [ ] Algorithmic Systems & Data Structures showcase (200+ LeetCode problems, dynamic programming, graphs).
-- [ ] Distributed Redis Caching & Rate Limiter showcase.
-- [ ] AI Clinical Care Navigation showcase.
-- [ ] Complete SEO metadata and OpenGraph configuration for `/projects`.
+- [x] Flagship project showcase cards with clean, direct architecture summaries.
+- [x] Humankind healthcare super-marketplace case study (200+ tables, HIPAA, Supabase, Stripe Connect).
+- [x] Algorithmic Systems & Data Structures showcase (200+ LeetCode problems, dynamic programming, graphs).
+- [x] Distributed Redis Caching & Rate Limiter showcase.
+- [x] AI Clinical Care Navigation showcase.
+- [x] Complete SEO metadata and OpenGraph configuration for `/projects`.
